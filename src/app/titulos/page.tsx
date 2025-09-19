@@ -4,15 +4,37 @@ export default function Titulos() {
   return (
     <div className="w-full">
       {/* Hero */}
-      <section className="relative h-[50vh] flex items-center justify-center text-center text-white bg-red-600">
-        <h1 className="text-4xl font-extrabold drop-shadow-lg">
-          Títulos do Clube de Regatas do Flamengo
-        </h1>
+      <section className="relative h-[80vh] w-full flex items-center justify-center text-center text-white">
+        {/* Background */}
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src="/images/torcida8.webp"
+            alt="Torcida do Flamengo"
+            fill
+            priority
+            className="object-cover object-center"
+          />
+          {/* Overlay para destacar o texto */}
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
+
+        {/* Conteúdo Hero */}
+        <div className="px-4 max-w-3xl">
+          <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-lg">
+            Títulos do Clube de Regatas do Flamengo
+          </h1>
+          <p className="mt-6 text-lg md:text-xl text-gray-200">
+            Uma trajetória gloriosa marcada por conquistas nacionais e
+            internacionais.
+          </p>
+        </div>
       </section>
 
       {/* Tabela de Títulos */}
       <section className="py-16 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-center">Quadro de Títulos</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">
+          Quadro de Títulos
+        </h2>
         <div className="overflow-x-auto">
           <table className="min-w-full border border-gray-300">
             <thead className="bg-red-600 text-white">

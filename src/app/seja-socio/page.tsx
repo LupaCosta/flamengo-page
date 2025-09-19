@@ -22,9 +22,15 @@ export default function SejaSocio() {
           <p className="text-xl mb-8 drop-shadow-md">
             Seja sócio do Clube de Regatas do Flamengo e viva experiências exclusivas com o maior clube do Brasil.
           </p>
-          <button className="bg-yellow-400 text-black font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-300 transition">
-            Torne-se Sócio
-          </button>
+          <a
+          href="https://nacao.flamengo.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-red-600 text-white font-bold px-10 py-6 rounded-lg shadow-lg hover:bg-red-500 transition text-xl"
+        >
+          Torne-se Sócio
+        </a>
+
         </div>
       </section>
 

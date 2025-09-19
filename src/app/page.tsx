@@ -8,7 +8,7 @@ export default function Home() {
         {/* Background */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/flamengo4.webp" // coloque sua imagem na pasta /public/images
+            src="/images/torcida1.png" // coloque sua imagem na pasta /public/images
             alt="Torcida do Flamengo"
             fill
             priority
@@ -21,7 +21,7 @@ export default function Home() {
           <h1 className="text-5xl font-extrabold mb-6 drop-shadow-lg">
             Bem-vindo ao Clube de Regatas do Flamengo
           </h1>
-          <p className="text-xl mb-8 drop-shadow-lg">
+          <p className="text-xl mb-18 drop-shadow-lg">
             O maior clube do Brasil, paixão que une milhões de torcedores!
           </p>
           

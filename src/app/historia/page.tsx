@@ -2,12 +2,28 @@ import Image from "next/image";
 
 export default function Historia() {
   return (
+
+    
+    
     <div className="w-full">
       {/* Hero simples */}
-      <section className="relative h-[50vh] flex items-center justify-center text-center text-white bg-red-600">
-        <h1 className="text-4xl font-extrabold drop-shadow-lg">
-          História do Clube de Regatas do Flamengo
-        </h1>
+      <section className="relative h-[80vh] w-full flex items-center justify-center text-center text-white">
+        {/* Background */}
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src="/images/torcida1.png"
+            alt="Torcida do Flamengo"
+            fill
+            priority
+            className="object-cover object-center"
+          />
+        </div>
+      
+        <div className="px-4 max-w-3xl">
+          <h1 className="text-4xl mb-35 md:text-5xl font-extrabold drop-shadow-lg">
+            História do Clube de Regatas do Flamengo
+          </h1>
+        </div>
       </section>
 
       {/* Conteúdo principal */}
